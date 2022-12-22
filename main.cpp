@@ -1,7 +1,7 @@
 
 #include <iostream>
 #include "math.h"
-using namesoace std;
+using namespace std;
 
 float f(float y){
     float risultato;
