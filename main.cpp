@@ -1,3 +1,4 @@
+
 #include <iostream>
 #include "math.h"
 using namesoace std;
@@ -7,8 +8,6 @@ float f(float y){
     risultato = pow(y, 2)* cos(y)+1;
     return risultato;
 }
-
-
 
 int main() {
     float a, b;
