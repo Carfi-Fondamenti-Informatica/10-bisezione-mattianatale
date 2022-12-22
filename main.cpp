@@ -1,5 +1,4 @@
-
-  #include <iostream>
+#include <iostream>
 #include"math.h"
 using namespace std;
 float f(float y){
@@ -7,6 +6,7 @@ float f(float y){
     float risultato = pow(y, 2)* cos(y)+1;
     return risultato;
 }
+
     int main() {
         float a;
         float b;
@@ -35,4 +35,4 @@ float f(float y){
          while (error>=1e-6);
         cout<<int(x*10000)/10000.0<<endl;
         return 0;
-    }
+     }
